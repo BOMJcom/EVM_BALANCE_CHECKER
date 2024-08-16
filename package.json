@@ -1,0 +1,28 @@
+{
+    "name": "evm_checker",
+    "version": "0.0.1",
+    "description": "EVM balance checker",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc && node dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "2poy",
+    "license": "ISC",
+    "dependencies": {
+        "ethereum-multicall": "^2.26.0",
+        "ethers": "^6.13.2",
+        "fs-extra": "^11.2.0",
+        "inquirer": "^10.1.8",
+        "path": "^0.12.7",
+        "readline-sync": "^1.4.10",
+        "winston": "^3.13.1",
+        "xlsx": "^0.18.5"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^11.0.4",
+        "@types/node": "^22.1.0",
+        "@types/readline-sync": "^1.4.8",
+        "@types/winston": "^2.4.4"
+    }
+}

@@ -1,0 +1,65 @@
+# Директории node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Директории окружения
+.env
+.env.test
+.env.production
+
+# Директории журналов
+logs/
+*.log
+
+# Кэш компилятора
+.cache/
+
+# Папка dist или build для компилированных файлов
+dist/
+build/
+
+# Настройки macOS
+.DS_Store
+
+# Настройки редакторов
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Директории файлов
+/files/
+
+# Типичные выходные файлы
+*.out
+*.log
+
+# Git hooks
+.git/hooks/
+
+# Папка с зашифрованными секретами
+.secrets/
+
+# Файлы процессов
+pids/
+*.pid
+*.seed
+
+# Лог системного мониторинга
+*.gz
+*.xz
+
+# Общее игнорирование
+*.swp
+*.temp
+*.tmp
+*.bak
+
+# Минифицированные файлы
+*.min.js
+*.min.css
+
+# Игнорирование файлов ESLint и Prettier
+.eslintcache
